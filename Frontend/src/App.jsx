@@ -1,9 +1,11 @@
 import React from "react";
+import "./components/SideBar";
+import SideBar from "./components/SideBar";
 
 function App() {
   return (
     <div>
-      <h1 className="text-blue-300">hello</h1>
+      <SideBar />
     </div>
   );
 }
